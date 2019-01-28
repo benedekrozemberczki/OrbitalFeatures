@@ -48,6 +48,7 @@ The following command extracts the orbital role counts from the induced subgraph
 ```
 python src/main.py
 ```
+
 <p align="center">
 <img  width="700",style="float: center;" src="orbital_runtime.jpg">
 </p>
