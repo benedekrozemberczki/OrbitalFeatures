@@ -4,7 +4,7 @@ from utils import load_graph, tab_printer
 
 def main(args):
     """
-    Role2Vec model fitting.
+    Orbital rol featur extraction.
     :param args: Arguments object.
     """
     tab_printer(args)
@@ -15,4 +15,3 @@ def main(args):
 if __name__ == "__main__":
     args = parameter_parser()
     main(args)
-
