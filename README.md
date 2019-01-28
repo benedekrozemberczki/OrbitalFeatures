@@ -36,8 +36,8 @@ Training the model is handled by the `src/main.py` script which provides the fol
 #### Input and output options
 
 ```
-  --edge-path        STR   Input graph path.   Default is `input/cora_edges.csv`.
-  --features-path    STR   Features path.      Default is `input/cora_features.json`.
+  --graph-input    STR   Input graph path.   Default is `input/cora_edges.csv`.
+  --output         STR   Features path.      Default is `output/cora_orbital_features.csv`.
   --epochs                INT       Number of Adam epochs.         Default is 300.
 ```
 
