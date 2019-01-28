@@ -49,7 +49,7 @@ The following commands learn  the weights of a graph wavelet neural network and 
 python src/main.py
 ```
 <p align="center">
-<img  width="500",style="float: center;" src="orbital_runtime.jpg">
+<img  width="700",style="float: center;" src="orbital_runtime.jpg">
 </p>
 
 Approximationg the wavelets with polynomials that have an order of 5.
