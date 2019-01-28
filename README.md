@@ -57,11 +57,11 @@ The following commands learn  the weights of a graph wavelet neural network and 
 python src/main.py
 ```
 <p align="center">
-<img style="float: center;" src="gwnn_run.jpg">
+<img style="float: center;" src="orbital_runtime.jpg">
 </p>
 
 Approximationg the wavelets with polynomials that have an order of 5.
 
 ```
-python src/main.py --approximation-order 5
+python src/main.py --graphlet-size 3
 ```
