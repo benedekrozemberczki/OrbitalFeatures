@@ -38,15 +38,7 @@ Training the model is handled by the `src/main.py` script which provides the fol
 ```
   --edge-path        STR   Input graph path.   Default is `input/cora_edges.csv`.
   --features-path    STR   Features path.      Default is `input/cora_features.json`.
-  --target-path      STR   Target path.        Default is `input/cora_target.csv`.
-  --log-path         STR   Log path.           Default is `logs/cora_logs.json`.
-```
-
-#### Model options
-
-```
   --epochs                INT       Number of Adam epochs.         Default is 300.
-  --learning-rate         FLOAT     Number of training epochs.     Default is 0.001.
 ```
 
 ### Examples
