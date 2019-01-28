@@ -36,14 +36,14 @@ Training the model is handled by the `src/main.py` script which provides the fol
 #### Input and output options
 
 ```
-  --graph-input    STR   Input graph path.   Default is `input/cora_edges.csv`.
-  --output         STR   Features path.      Default is `output/cora_orbital_features.csv`.
-  --epochs                INT       Number of Adam epochs.         Default is 300.
+  --graph-input    STR   Input graph path.       Default is `input/cora_edges.csv`.
+  --output         STR   Features path.          Default is `output/cora_orbital_features.csv`.
+  --graphlet-size  INT   Maximal subgraph size.  Default is 4.
 ```
 
 ### Examples
 
-The following commands learn  the weights of a graph wavelet neural network and saves the logs. The first example trains a graph wavelet neural network on the default dataset with standard hyperparameter settings. Saving the logs at the default path.
+The following command extracts the orbital role counts from the induced subgraphs up to the graphlet size order.
 
 ```
 python src/main.py
@@ -52,8 +52,8 @@ python src/main.py
 <img  width="700",style="float: center;" src="orbital_runtime.jpg">
 </p>
 
-Approximationg the wavelets with polynomials that have an order of 5.
+Extracting the counts for graphlets with size 5.
 
 ```
-python src/main.py --graphlet-size 3
+python src/main.py --graphlet-size 5
 ```
