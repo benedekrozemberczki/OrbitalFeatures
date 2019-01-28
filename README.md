@@ -7,7 +7,7 @@ An implementation of "Biological Network Comparison Using Graphlet Degree Distri
 <p align="justify">
 Analogous to biological sequence comparison, comparing cellular networks is an important problem that could provide insight into biological understanding and therapeutics. For technical reasons, comparing large networks is computationally infeasible, and thus heuristics, such as the degree distribution, clustering coefficient, diameter, and relative graphlet frequency distribution have been sought. It is easy to demonstrate that two networks are different by simply showing a short list of properties in which they differ. It is much harder to show that two networks are similar, as it requires demonstrating their similarity in all of their exponentially many properties. Clearly, it is computationally prohibitive to analyze all network properties, but the larger the number of constraints we impose in determining network similarity, the more likely it is that the networks will truly be similar.</p>
 
-This repository provides an implementation of Graph Wavelet Neural Network as described in the paper:
+This repository provides an implementation of Orbital Role Counting as described in the paper:
 
 > Biological network comparison using graphlet degree distribution.
 > Natasa Przulj.
