@@ -4,12 +4,22 @@ import networkx as nx
 from networkx.generators.atlas import *
 
 class MotifCounterMachine(object):
-
+    """
+    Connected motif orbital role counter.
+    """
     def __init__(self, graph, args):
+        """
+        Creating an orbital role counter machine.
+        :param graph: NetworkX graph.
+        :param args: Arguments object.
+        """
         self.graph = graph
         self.args = args
 
     def create_edge_subsets(self):
+        """
+        Enumerating connected subgraphs with size 2 up to the graphlet size.
+        """
         print("\nEnumerating subgraphs.\n")
         self.edge_subsets = dict()
         subsets = [[edge[0],edge[1]] for edge in self.graph.edges()]
