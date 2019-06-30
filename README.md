@@ -1,4 +1,4 @@
-Orbital Strike <img src="https://img.shields.io/badge/license-MIT-blue.svg"/>
+Orbital Strike ![GitHub stars](https://img.shields.io/github/stars/benedekrozemberczki/OrbitalFeatures.svg?style=plastic) ![GitHub forks](https://img.shields.io/github/forks/benedekrozemberczki/OrbitalFeatures.svg?color=blue&style=plastic) ![License](https://img.shields.io/github/license/benedekrozemberczki/OrbitalFeatures.svg?color=blue&style=plastic)
 ============================================
 An implementation of "Biological Network Comparison Using Graphlet Degree Distribution" (Bioinformatics 2007).
 <p align="center">
