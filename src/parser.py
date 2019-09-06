@@ -7,7 +7,6 @@ def parameter_parser():
     """
     parser = argparse.ArgumentParser(description = "Run Orbital Strike to extract structural features.")
 
-
     parser.add_argument('--graph-input',
                         nargs = '?',
                         default = "./input/cora_edges.csv",
