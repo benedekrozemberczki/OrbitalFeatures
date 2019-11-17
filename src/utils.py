@@ -1,3 +1,5 @@
+""" Utilities for printing and data reading."""
+
 import pandas as pd
 import networkx as nx
 from texttable import Texttable
@@ -9,8 +11,8 @@ def tab_printer(args):
     """
     args = vars(args)
     keys = sorted(args.keys())
-    t = Texttable() 
-    t.add_rows([["Parameter", "Value"]] +  [[k.replace("_"," ").capitalize(),args[k]] for k in keys])
+    t = Texttable()
+    t.add_rows([["Parameter", "Value"]]+[[k.replace("_", " ").capitalize(), args[k]] for k in keys])
     print(t.draw())
 
 def load_graph(graph_path):

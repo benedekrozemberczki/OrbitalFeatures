@@ -1,3 +1,5 @@
+"""Motif Counter definition."""
+
 import pandas as pd
 from tqdm import tqdm
 import networkx as nx
@@ -34,7 +36,7 @@ class MotifCounterMachine(object):
                         if len(set(new_subset)) == i:
                             new_subset.sort()
                             unique_subsets[tuple(new_subset)] = 1
-            subsets = [list(k) for k,v in unique_subsets.items()]
+            subsets = [list(k) for k, v in unique_subsets.items()]
             self.edge_subsets[i] = subsets
             unique_subsets = dict()
 
@@ -43,9 +45,9 @@ class MotifCounterMachine(object):
         Creating a hash table of the benchmark motifs.
         """
         graphs = graph_atlas_g()
-        self.interesting_graphs = {i:[] for i in range(2,self.args.graphlet_size+1)}
+        self.interesting_graphs = {i: [] for i in range(2, self.args.graphlet_size+1)}
         for graph in graphs:
-            if graph.number_of_nodes()>1 and  graph.number_of_nodes()<self.args.graphlet_size+1:
+            if graph.number_of_nodes() > 1 and graph.number_of_nodes() < self.args.graphlet_size+1:
                 if nx.is_connected(graph):
                     self.interesting_graphs[graph.number_of_nodes()].append(graph)
 
@@ -86,8 +88,8 @@ class MotifCounterMachine(object):
         Creating a table with the orbital role features.
         """
         print("Saving the dataset.")
-        self.binned_features = {node:[] for node in self.graph.nodes()}
-        self.motifs = [[node]+[self.features[node][index] for index in  range(self.unique_motif_count )] for node in self.graph.nodes()]
+        self.binned_features = {node: [] for node in self.graph.nodes()}
+        self.motifs = [[n]+[self.features[n][i] for i in  range(self.unique_motif_count)] for n in self.graph.nodes()]
         self.motifs = pd.DataFrame(self.motifs)
         self.motifs.columns = ["id"] + ["role_"+str(index) for index in range(self.unique_motif_count)]
         self.motifs.to_csv(self.args.output, index=None)

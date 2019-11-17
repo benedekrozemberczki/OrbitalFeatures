@@ -1,4 +1,6 @@
-from parser import parameter_parser
+"""Running the feature extractor."""
+
+from param_parser import parameter_parser
 from motif_count import MotifCounterMachine
 from utils import load_graph, tab_printer
 
