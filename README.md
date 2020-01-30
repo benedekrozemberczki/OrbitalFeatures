@@ -49,7 +49,7 @@ Training the model is handled by the `src/main.py` script which provides the fol
 The following command extracts the orbital role counts from the induced subgraphs up to the graphlet size order. The first column of the output is the node identifier and features are sorted by node identifiers.
 
 ```sh
-python src/main.py
+$ python src/main.py
 ```
 
 <p align="center">
@@ -59,5 +59,5 @@ python src/main.py
 Extracting the counts for graphlets with size 5.
 
 ```sh
-python src/main.py --graphlet-size 5
+$ python src/main.py --graphlet-size 5
 ```
