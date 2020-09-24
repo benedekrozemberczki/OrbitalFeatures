@@ -2,7 +2,7 @@ Orbital Strike
 ============================================
 ![License](https://img.shields.io/github/license/benedekrozemberczki/OrbitalFeatures.svg?color=blue&style=plastic) [![codebeat badge](https://codebeat.co/badges/d9d146a3-e6af-463f-acb3-3c380adefadb)](https://codebeat.co/projects/github-com-benedekrozemberczki-orbitalfeatures-master)
 
-An implementation of "Biological Network Comparison Using Graphlet Degree Distribution" (Bioinformatics 2007).
+An implementation of **Biological Network Comparison Using Graphlet Degree Distribution** (Bioinformatics 2007).
 <p align="center">
   <img width="500" src="orbit.png">
 </p>
