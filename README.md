@@ -71,3 +71,5 @@ $ python src/main.py --graphlet-size 5
 **License**
 
 - [GNU](https://github.com/benedekrozemberczki/OrbitalFeatures/blob/master/LICENSE)
+
+--------------------------------------------------------------------------------
