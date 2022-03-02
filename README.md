@@ -1,6 +1,6 @@
 Orbital Strike
 ======================================
-![License](https://img.shields.io/github/license/benedekrozemberczki/OrbitalFeatures.svg?color=blue) [![codebeat badge](https://codebeat.co/badges/d9d146a3-e6af-463f-acb3-3c380adefadb)](https://codebeat.co/projects/github-com-benedekrozemberczki-orbitalfeatures-master) [![repo size](https://img.shields.io/github/repo-size/benedekrozemberczki/OrbitalFeatures.svg)](https://github.com/benedekrozemberczki/OrbitalFeatures/archive/master.zip)⠀[![benedekrozemberczki](https://img.shields.io/twitter/follow/benrozemberczki?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=benrozemberczki)⠀
+![License](https://img.shields.io/github/license/benedekrozemberczki/OrbitalFeatures.svg?color=blue) [![codebeat badge](https://codebeat.co/badges/d9d146a3-e6af-463f-acb3-3c380adefadb)](https://codebeat.co/projects/github-com-benedekrozemberczki-orbitalfeatures-master) [![repo size](https://img.shields.io/github/repo-size/benedekrozemberczki/OrbitalFeatures.svg)](https://github.com/benedekrozemberczki/OrbitalFeatures/archive/master.zip) [![benedekrozemberczki](https://img.shields.io/twitter/follow/benrozemberczki?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=benrozemberczki)
 
 
 A **NetworkX** implementation of **Biological Network Comparison Using Graphlet Degree Distribution** (Bioinformatics 2007).
