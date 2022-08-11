@@ -22,5 +22,5 @@ def load_graph(graph_path):
     :return graph: Networkx Object.
     """
     graph = nx.from_edgelist(pd.read_csv(graph_path).values.tolist())
-    graph.remove_edges_from(graph.selfloop_edges())
+    graph.remove_edges_from(nx.selfloop_edges(graph))
     return graph
